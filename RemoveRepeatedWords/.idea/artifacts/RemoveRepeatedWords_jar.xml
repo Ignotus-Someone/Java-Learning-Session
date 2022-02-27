@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RemoveRepeatedWords:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RemoveRepeatedWords_jar</output-path>
+    <root id="archive" name="RemoveRepeatedWords.jar">
+      <element id="module-output" name="RemoveRepeatedWords" />
+    </root>
+  </artifact>
+</component>

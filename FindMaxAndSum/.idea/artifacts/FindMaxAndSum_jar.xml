@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FindMaxAndSum:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FindMaxAndSum_jar</output-path>
+    <root id="archive" name="FindMaxAndSum.jar">
+      <element id="module-output" name="FindMaxAndSum" />
+    </root>
+  </artifact>
+</component>
