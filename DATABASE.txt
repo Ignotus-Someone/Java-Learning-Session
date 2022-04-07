@@ -1,0 +1,21 @@
+### Verilenler bazasini MySQL Workbench de asagidaki commandla yaratdim"
+
+CREATE DATABASE Library
+
+### Consoldo tableini ise bele yaratdim:
+
+CREATE TABLE books(
+    book_id INT AUTO_INCREMENT PRIMARY KEY,
+    book_title VARCHAR(100) NOT NULL,
+    edition VARCHAR(10) DEFAULT 'N/A',
+    author VARCHAR(20) NOT NULL,
+    publish_year INT DEFAULT NULL,
+    page INT DEFAULT NULL
+);
+
+DESCRIBE books;
+
+# DROP TABLE books; (Optional)
+
+### Analoji olaraq eyni addimlari tekrarlayib database ve table yaradib sisteme baglaya bilersiz
+### User_name, password ve URL deyisib yoxlaya bilersiz. Men cehd gosterdim amma local serveri GitHubda baylasmaq problemlidir.
